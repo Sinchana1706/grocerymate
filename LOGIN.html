@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheet8.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Sansita+Swashed:wght@500&family=Shippori+Antique+B1&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <h2>Login page</h2>
+    <p>Please enter the details below</p>
+    <br>
+    <div class="login">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required id ="username">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br> <button  class="submitbtn" onclick="submits()" onclick="password()">submit</button>
+</div>
+    <script ip="text/javascript">
+        function submits() {
+            var username=document.getElementById('username').value;
+        var password=document.getElementById('password').value;
+            if(username="sinchana" && password = "sinchana"){
+                  location.assign("file:///C:/Users/sinch/OneDrive/Desktop/grocery%20management/new.html");
+            }
+            else {
+                window.alert("you have entered the wrong username adn id ");
+            }
+        }
+            
+    </script>
+</body>
+</head>
+</html>

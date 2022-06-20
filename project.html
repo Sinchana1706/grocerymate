@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="style1.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Sansita+Swashed:wght@500&family=Shippori+Antique+B1&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
+<body>
+ 
+  <figure class="intro">
+  <img src="S5.jpg">
+  <figcaption><br>Not willing to go out of home . No worries we are here , to deliver you the all the essential things you are required with . From a your vegetables to all the masala items. </figcaption>
+  </figure>
+  <figure class="meme">
+  <img src="s6.png" alt="Nature" class="responsive" width="900px" height="400">
+  
+  <figcaption><br>Does this happens only with me......No everyone are facing the same issue. Most of us are running out of the budget due to the unneccessary shopping. Let's bring a pause to these activity . Shop online and through Gro-cery mate and save your money
+  <br>
+<br>
+<br>
+We deliver you the best grocery . The groceries are passed in our  3 stage quality check and later delivered to your door.
+<br>
+<h3> We deliver the item within 30 minutes , or else the grocery is for free...... <br>
+  Yes you read it right .</h3>
+  <h2>
+    We deliver the best grocery for the beautiful people 
+  </h2>
+</figcaption>
+</figure>
+<span style='font-size:100px;' class="clock">&#8987;&#9201;&#9989;&#9993;</span>
+<span style='font-size:100px;' class="cl">&copy;</span>
+    <div id="navbar">
+      <a href="#default" id="logo">Gro-cery Mate</a>
+      <div id="navbar-right">
+        <a class="active" href="#home">Home</a>
+        <a href="product.html">Offers valid for today </a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </div>
+    <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px"></div>
+     <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "30px 10px";
+          document.getElementById("logo").style.fontSize = "25px";
+        } else {
+          document.getElementById("navbar").style.padding = "80px 10px";
+          document.getElementById("logo").style.fontSize = "35px";
+        }
+      }
+      </script>
+      <button class="open-button" onclick="openForm()">Need Help?</button>
+
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+      
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+      
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        <script>
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+          
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+          </script>
+      </div>
+     </div>
+    
+</body>
+</html>
